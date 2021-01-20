@@ -1,0 +1,16 @@
+{
+  "name": "timer-socket",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.0",
+    "socket.io-client": "^3.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
